@@ -4,6 +4,7 @@
   "description": "Portfolio to collect projects and skill info.",
   "main": "portfolio.js",
   "scripts": {
+    "start": "node portfolio.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
