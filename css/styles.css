@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500");
+#navbar {
+  background-color: grey;
+  display: flex;
+  justify-content: space-around; }
+  #navbar .navbar-tag {
+    color: white;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif; }
+
+.card {
+  background-color: red;
+  height: 50px;
+  width: 50px; }
