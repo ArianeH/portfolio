@@ -10,40 +10,40 @@
 </head>
 <body>
   <div id="navbar">
-    <span class="navbar-tag"><a href="">about</a></span>
-    <span class="navbar-tag"><a href="">portfolio</a></span>
-    <span class="navbar-tag"><a href="">contact</a></span>
+    <span class="navbar-tag"><a href="#about-section">about</a></span>
+    <span class="navbar-tag"><a href="#portfolio-section">portfolio</a></span>
+    <span class="navbar-tag"><a href="#contact-section">contact</a></span>
   </div>
 
-  <div id="about-section"></div>
+  <div id="about-section">
+    <h1 class="section-heading">About</h1>
+  </div>
 
   <div id="portfolio-section">
+    <h1 class="section-heading">Portfolio</h1>
     <div class="container">
-      <div class="card-wrapper">
 
-<!--         <div class="card">
-          <a href="http://www.followme.website/" class="project-link" target="_blank">
+      <script id="card-template" type="text/x-handlebars-template">
+        {{#each project_info}}
+        <div class="card">
+          <a href={{link}} class="project-link" target="_blank">
             <div class="card-content">
-              <h1 class="card-heading"></h1>
-              <img src="images/followme-img.jpg" alt="Image showing the Follow Me website" class="website-img">
-              <p>Website to help tourists find tours organized by locals. Developed with the Ruby on Rails framework.</p>
+              <h1 class="card-heading">{{title}}</h1>
+              <img src={{img}} alt="Image showing the Follow Me website" class="website-img">
+              <p>{{description}}</p>
             </div>
           </a>
-        </div> -->
+        </div>
+        {{/each}}
+      </script>
 
-        <!--This is our template. -->
-        <!--Data will be inserted in its according place, replacing the brackets.-->
-        <script id="card-template" type="text/x-handlebars-template">
-          <p>Title: {{title}} Description: {{description}}</p>
-        </script>
+      <div class="card-placeholder"></div>
 
-        <!--Your new content will be displayed in here-->
-        <div class="card-placeholder"></div>
-
-
-
-      </div>
     </div>
+  </div>
+
+  <div id="contact-section">
+    <h1 class="section-heading">Contact</h1>
   </div>
 
   <div id="footer">

@@ -1,16 +1,29 @@
-.card-wrapper {
-  padding: 30px; }
-  .card-wrapper .card {
-    color: #888888;
-    background-color: #3a3a3a;
-    height: 350px;
-    width: 450px;
-    border-radius: 3px;
-    padding: 10px 20px; }
-    .card-wrapper .card .project-link {
-      text-decoration: none;
-      color: #b3b3b3; }
-    .card-wrapper .card .card-content {
-      margin-top: -20px; }
-    .card-wrapper .card .website-img {
-      width: 420px; }
+.card-placeholder {
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap; }
+
+.card {
+  color: #888888;
+  background-color: #3a3a3a;
+  height: 400px;
+  width: 450px;
+  border-radius: 3px;
+  padding: 20px 30px;
+  margin: 30px;
+  flex: 1 0 500px;
+  box-sizing: border-box; }
+  .card .project-link {
+    text-decoration: none;
+    color: #b3b3b3; }
+  .card .card-content {
+    margin-top: -20px; }
+  .card .website-img {
+    width: 420px; }
+
+@media screen and (min-width: 60em) {
+  .card {
+    max-width: calc(50% - 60px); } }
+
+.section-heading {
+  text-align: center; }
