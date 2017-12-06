@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Follow Me",
+    "img": "followme-img.jpg",
+    "description": "Website to help tourists find tours organized by locals. Developed with the Ruby on Rails framework."
+  },
+  {
+    "title": "Whack A Mole",
+    "img": "https://whac-a-ship.herokuapp.com",
+    "description": "Website to help tourists find tours organized by locals. Developed with the Ruby on Rails framework."
+  }
+]

@@ -3,18 +3,55 @@
 <head>
   <meta charset="UTF-8">
   <title>Project Portfolio</title>
+  <script src="handlebars-v4.0.11.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/styles.css">
-  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-  <script src="./portfolio.js"></script>
 </head>
 <body>
-  <div id="nav-placeholder"></div>
-  Project Portfolio
+  <div id="navbar">
+    <span class="navbar-tag"><a href="">about</a></span>
+    <span class="navbar-tag"><a href="">portfolio</a></span>
+    <span class="navbar-tag"><a href="">contact</a></span>
+  </div>
 
-  <div id="portfolio-placeholder"></div>
+  <div id="about-section"></div>
 
-  <div id="footer-placeholder"></div>
+  <div id="portfolio-section">
+    <div class="container">
+      <div class="card-wrapper">
+
+<!--         <div class="card">
+          <a href="http://www.followme.website/" class="project-link" target="_blank">
+            <div class="card-content">
+              <h1 class="card-heading"></h1>
+              <img src="images/followme-img.jpg" alt="Image showing the Follow Me website" class="website-img">
+              <p>Website to help tourists find tours organized by locals. Developed with the Ruby on Rails framework.</p>
+            </div>
+          </a>
+        </div> -->
+
+        <!--This is our template. -->
+        <!--Data will be inserted in its according place, replacing the brackets.-->
+        <script id="card-template" type="text/x-handlebars-template">
+          <p>Title: {{title}} Description: {{description}}</p>
+        </script>
+
+        <!--Your new content will be displayed in here-->
+        <div class="card-placeholder"></div>
+
+
+
+      </div>
+    </div>
+  </div>
+
+  <div id="footer">
+    <span>FOOTER TO BE ADJUSTED</span>
+    <span><a href="https://github.com/ArianeH" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></span>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="./portfolio.js"></script>
 </body>
 </html>

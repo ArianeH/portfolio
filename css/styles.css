@@ -2,13 +2,37 @@
 #navbar {
   background-color: grey;
   display: flex;
-  justify-content: space-around; }
-  #navbar .navbar-tag {
+  justify-content: space-around;
+  align-items: center;
+  height: 12vh; }
+  #navbar .navbar-tag > a {
     color: white;
     font-size: 20px;
-    font-family: 'Montserrat', sans-serif; }
+    text-decoration: none; }
+  #navbar .navbar-tag > a:hover {
+    color: lightgrey; }
 
-.card {
-  background-color: red;
-  height: 50px;
-  width: 50px; }
+#footer {
+  height: 10vh;
+  background-color: grey; }
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif; }
+
+.card-wrapper {
+  padding: 30px; }
+  .card-wrapper .card {
+    color: #888888;
+    background-color: #3a3a3a;
+    height: 350px;
+    width: 450px;
+    border-radius: 3px;
+    padding: 10px 20px; }
+    .card-wrapper .card .project-link {
+      text-decoration: none;
+      color: #b3b3b3; }
+    .card-wrapper .card .card-content {
+      margin-top: -20px; }
+    .card-wrapper .card .website-img {
+      width: 420px; }

@@ -1,8 +1,21 @@
-.card {
-  background-color: grey;
-  height: 250px;
-  width: 450px;
-  .website-img {
-    width: 350px;
+.card-wrapper {
+  padding: 30px;
+  .card {
+    color: #888888;
+    background-color: #3a3a3a;
+    height: 350px;
+    width: 450px;
+    border-radius: 3px;
+    padding: 10px 20px;
+    .project-link {
+      text-decoration: none;
+      color: #b3b3b3;
+    }
+    .card-content {
+     margin-top: -20px;
+    }
+    .website-img {
+      width: 420px;
+    }
   }
 }

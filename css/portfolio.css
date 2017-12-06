@@ -1,6 +1,16 @@
-.card {
-  background-color: grey;
-  height: 250px;
-  width: 450px; }
-  .card .website-img {
-    width: 350px; }
+.card-wrapper {
+  padding: 30px; }
+  .card-wrapper .card {
+    color: #888888;
+    background-color: #3a3a3a;
+    height: 350px;
+    width: 450px;
+    border-radius: 3px;
+    padding: 10px 20px; }
+    .card-wrapper .card .project-link {
+      text-decoration: none;
+      color: #b3b3b3; }
+    .card-wrapper .card .card-content {
+      margin-top: -20px; }
+    .card-wrapper .card .website-img {
+      width: 420px; }
