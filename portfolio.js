@@ -3,27 +3,27 @@ $(document).ready(function() {
   $.getJSON("../project-info.json", function(json){
     projectInfo = json;
 
-  // Grab the template script
-  var theTemplateScript = $("#card-template").html();
+    // Grab the template script
+    var theTemplateScript = $("#card-template").html();
 
-  // Compile the template
-  var theTemplate = Handlebars.compile(theTemplateScript);
+    // Compile the template
+    var theTemplate = Handlebars.compile(theTemplateScript);
 
+    // Pass our data to the template
+    var theCompiledHtml = theTemplate(projectInfo);
 
-  // Define our data object
-  // var context={
-  //   "title": element.title,
-  //   "description": element.description
-  // };
+    // Add the compiled html to the page
+    $('.card-placeholder').html(theCompiledHtml);
+  });
 
-  // Pass our data to the template
-  var theCompiledHtml = theTemplate(projectInfo);
+  $('a[href^="#"]').click(function(){
 
-  // Add the compiled html to the page
-  $('.card-placeholder').html(theCompiledHtml);
-    // });
-});
+    var targetId = $(this).attr("href");
 
+    $('html, body').animate({
+      scrollTop:$(targetId).offset().top
+    }, 'slow');
 
+    return false;});
 
 });
