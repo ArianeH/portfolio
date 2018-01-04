@@ -58,3 +58,12 @@ body {
 
 .section-heading {
   text-align: center; }
+
+.project-description {
+  margin-bottom: 50px; }
+
+.github-heading {
+  line-height: 0px; }
+
+.github-link:hover {
+  color: grey; }
