@@ -6,12 +6,12 @@
 .card {
   color: #888888;
   background-color: #3a3a3a;
-  height: 400px;
+  height: 480px;
   width: 450px;
   border-radius: 3px;
   padding: 20px 30px;
   margin: 30px;
-  flex: 1 0 500px;
+  flex: 1 0 550px;
   box-sizing: border-box;
   box-shadow: 2px 2px 8px #bbbbbb; }
   .card .card-heading {

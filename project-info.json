@@ -4,19 +4,22 @@
       "title": "Follow Me",
       "link": "http://www.followme.website/",
       "img": "images/followme-img.jpg",
-      "description": "Website to help tourists find tours organized by locals. Developed with the Ruby on Rails framework."
+      "description": "Website to help tourists find tours organized by locals. Developed with the Ruby on Rails framework.",
+      "github-link": "https://github.com/ArianeH/follow_me"
     },
     {
-      "title": "Whack A Mole",
+      "title": "Whack A Ship",
       "link": "https://whac-a-ship.herokuapp.com",
       "img": "images/whackaship-img.jpg",
-      "description": "Another website."
+      "description": "Simple client-side game based on the traditional 'Whack a Mole' game.",
+      "github-link": "https://github.com/ArianeH/clientside-javascript-game"
     },
     {
       "title": "Nutrition Calculator",
       "link": "https://nutri-cal.herokuapp.com",
       "img": "images/nutrition-calc-img.jpg",
-      "description": "Another website."
+      "description": "Web-App helping to keep track of nutrition. Developed with Ruby on Rails. Development still ongoing.",
+      "github-link": "https://github.com/ArianeH/Nutrition-Calculator"
     }
   ]
 }
