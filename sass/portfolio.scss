@@ -4,7 +4,7 @@
   flex-wrap: wrap;
 }
 .card {
-  color: #888888;
+  color: #b3b3b3;
   background-color: #3a3a3a;
   height: 480px;
   width: 450px;
@@ -48,6 +48,11 @@
 .github-heading {
   line-height: 0px;
 }
+.github-link {
+  text-decoration: none;
+  color: #b3b3b3;
+}
 .github-link:hover {
+  text-decoration: none;
   color: grey;
 }
