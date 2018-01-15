@@ -24,7 +24,7 @@
     {
       "title": "Campaign Manager",
       "link": "",
-      "img": "images/nutrition-calc-img.jpg",
+      "img": "images/campaign-manager-img.jpg",
       "description": "Built with React, to display campaign information retrieved from json data.",
       "github-link": "https://github.com/ArianeH/campaign-manager"
     }
