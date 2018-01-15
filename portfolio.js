@@ -17,7 +17,6 @@ $(document).ready(function() {
   });
 
   $('a[href^="#"]').click(function(){
-
     var targetId = $(this).attr("href");
 
     $('html, body').animate({
