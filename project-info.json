@@ -27,6 +27,13 @@
       "img": "images/campaign-manager-img.jpg",
       "description": "Built with React, to display campaign information retrieved from json data.",
       "github-link": "https://github.com/ArianeH/campaign-manager"
+    },
+    {
+      "title": "Product Filter",
+      "link": "",
+      "img": "images/product-filter-img-2.jpg",
+      "description": "Frontend application with the purpose to display and filter different designs available, using the Spoonflower API.",
+      "github-link": "https://github.com/ArianeH/product-filter"
     }
   ]
 }
